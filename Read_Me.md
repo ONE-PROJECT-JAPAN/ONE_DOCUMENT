@@ -29,6 +29,9 @@ visual studio 2022で進めていいます。
 
 ## 環境準備
 ---
+### Git_Hubアカウントを作ろう
+- [Git_Hubアカウントの作成方法](https://jiyuta.com/github-account/)
+
 ### Visual_Sudio_2022のインストールについて
 - [ダウンロードリンク](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
 ![hoge](./Image/visual_studio_2022_download.png)
