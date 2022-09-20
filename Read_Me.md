@@ -41,12 +41,15 @@ visual studio 2022で進めていいます。
 - インストールコンポーネント　※個別のComponentはデフォルトでOK
   ![hoge](./Image/InstallComponent.png)
 
+<br><br>
+
 ### Gitについて
  Gitは学習と慣れのためにGitBashを使用しましょう
 
 - [ダウンロードリンク](https://gitforwindows.org/)
 - [インストール手順](https://qiita.com/suke_masa/items/404f06309bb32ca6c9c5)
 - [GitBashの使い方](https://www.granfairs.com/blog/staff/gitbash-setting-shortcut)
+- [リポジトリークローンの作り方](/Common_Doc/Gow_To_Clone_Repojitories.md)
 
-### レポジトリークローンを作成しましょう。
+<br><br>
 
