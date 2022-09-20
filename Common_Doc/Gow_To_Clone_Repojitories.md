@@ -3,7 +3,8 @@
 今回はONE_DOCUMENTのクローン作製を例にして説明します。
 
 1. git Bash を起動しましょう
-![hoge](/Image/execute_git_bash.png) <br><br>
+   
+   ![hoge](/Image/execute_git_bash.png) <br><br>
 
  
 2. git用のディレクトリーを作りましょう
@@ -51,7 +52,9 @@
    git clone https://github.com/ONE-PROJECT-JAPAN/ONE_DOCUMENT.git
    ```
    以下のように`done`していたら成功
+
    ![hoge](/Image/git_clone.png)
 
    Explorerで見るとファイルができている
+   
    ![hoge](/Image/git_clone_Check.png)

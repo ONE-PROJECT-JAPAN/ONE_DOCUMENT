@@ -51,7 +51,7 @@ visual studio 2022で進めていいます。
 
 <br><br>
 
-### チュートリアル　←作成中
+# チュートリアル　←作成中
 1. [リポジトリークローンの作成](/Common_Doc/Gow_To_Clone_Repojitories.md)
 2. [ブランチの作成]()←作成中 [←そもそもbranchとは？](https://backlog.com/ja/git-tutorial/stepup/01/)
 3. [ソースファイルを編集する]()
