@@ -31,15 +31,12 @@ visual studio 2022で進めていいます。
 ---
 ### Git_Hubアカウントを作ろう
 - [Git_Hubアカウントの作成方法](https://jiyuta.com/github-account/)
+<br><br>
 
-### Visual_Sudio_2022のインストールについて
-- [ダウンロードリンク](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
-![hoge](./Image/visual_studio_2022_download.png)
-(
-- [インストール手順](https://learn.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2022)
 
-- インストールコンポーネント　※個別のComponentはデフォルトでOK
-  ![hoge](./Image/InstallComponent.png)
+### Visual_Sudio_2022について
+- [インストール](/Common_Doc/HIow_To_ntall_Visual_Studio.md)
+- [おすすめ設定]() ←作成中
 
 <br><br>
 
