@@ -27,7 +27,7 @@ visual studio 2022で進めていいます。
 
 <br>
 
-## 環境準備
+## 環境準備とツールWiki
 ---
 ### Git_Hubアカウントを作ろう
 - [Git_Hubアカウントの作成方法](https://jiyuta.com/github-account/)
@@ -37,16 +37,24 @@ visual studio 2022で進めていいます。
 ### Visual_Sudio_2022について
 - [インストール](/Common_Doc/HIow_To_ntall_Visual_Studio.md)
 - [おすすめ設定]() ←作成中
-
+- [使い方]() ←作成中
 <br><br>
 
-### Gitについて
+### Gitのインストール
  Gitは学習と慣れのためにGitBashを使用しましょう
 
+- [Gitとは](https://wa3.i-3-i.info/word12778.html)
 - [ダウンロードリンク](https://gitforwindows.org/)
 - [インストール手順](https://qiita.com/suke_masa/items/404f06309bb32ca6c9c5)
 - [GitBashの使い方](https://www.granfairs.com/blog/staff/gitbash-setting-shortcut)
-- [リポジトリークローンの作り方](/Common_Doc/Gow_To_Clone_Repojitories.md)
+
 
 <br><br>
+
+### チュートリアル　←作成中
+1. [リポジトリークローンの作成](/Common_Doc/Gow_To_Clone_Repojitories.md)
+2. [ブランチの作成]()←作成中 [←そもそもbranchとは？](https://backlog.com/ja/git-tutorial/stepup/01/)
+3. [ソースファイルを編集する]()
+4. [`git commit`して変更を確定させる。]()
+5. [`git push`してGitHubにブランチを上げる]()
 
