@@ -1,73 +1,65 @@
 # Read Me
 
-ãƒãƒ¼ãƒ ã«æ–°ãŸã«å‚åŠ ã—ãŸæ–¹ã¯å¿…ãšç›®ã‚’é€šã—ã¦ãŠã„ã¦ãã ã•ã„ã€‚
+ƒ`[ƒ€‚ÉV‚½‚ÉŽQ‰Á‚µ‚½•û‚Í•K‚¸–Ú‚ð’Ê‚µ‚Ä‚¨‚¢‚Ä‚­‚¾‚³‚¢B
 
 <br><br>
 
-## ãƒªãƒã‚¸ãƒˆãƒªãƒ¼ãƒ«ãƒ¼ãƒ«
+## ƒŠƒ|ƒWƒgƒŠ[ƒ‹[ƒ‹
 ---
-### ãƒ–ãƒ©ãƒ³ãƒã«ã¤ã„ã¦
-åŸºæœ¬çš„ã«`main`ãƒ–ãƒ©ãƒ³ãƒã¯`Push`ç¦æ­¢ã§ã™ã€‚
-ç„¡æ–™æž ã®ä¸­ã§ç®¡ç†ã—ã¦ã„ã‚‹é–¢ä¿‚ä¸Šmainãƒ–ãƒ©ãƒ³ãƒã«`Push`ã§ãã¦ã—ã¾ã†ãŸã‚æ³¨æ„ã—ã¦ãã ã•ã„ã€‚
+### ƒuƒ‰ƒ“ƒ`‚É‚Â‚¢‚Ä
+Šî–{“I‚É`main`ƒuƒ‰ƒ“ƒ`‚Í`Push`‹ÖŽ~‚Å‚·B
+–³—¿˜g‚Ì’†‚ÅŠÇ—‚µ‚Ä‚¢‚éŠÖŒWãmainƒuƒ‰ƒ“ƒ`‚É`Push`‚Å‚«‚Ä‚µ‚Ü‚¤‚½‚ß’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢B
 
-ä¸‡ãŒä¸€`Push`ã—ã¦ã—ã¾ã£ãŸå ´åˆã«ã¯ãƒãƒ¼ãƒ ãƒ‡ã‚£ã‚¹ã‚«ãƒƒã‚·ãƒ§ãƒ³ã§å ±å‘Šã‚’ãŠé¡˜ã„ã—ã¾ã™ã€‚ã“ã¡ã‚‰ã§å¾©å…ƒã‚’è¡Œã„ã¾ã™ã€‚
+–œ‚ªˆê`Push`‚µ‚Ä‚µ‚Ü‚Á‚½ê‡‚É‚Íƒ`[ƒ€ƒfƒBƒXƒJƒbƒVƒ‡ƒ“‚Å•ñ‚ð‚¨Šè‚¢‚µ‚Ü‚·B‚±‚¿‚ç‚Å•œŒ³‚ðs‚¢‚Ü‚·B
 
-### ãƒ–ãƒ©ãƒ³ãƒå‘½åè¦å‰‡
-åŸºæœ¬çš„ã«ä»¥ä¸‹ã®é€šã‚Šå‘½åã‚’ã™ã‚‹ã“ã¨
+### ƒuƒ‰ƒ“ƒ`–½–¼‹K‘¥
+Šî–{“I‚ÉˆÈ‰º‚Ì’Ê‚è–½–¼‚ð‚·‚é‚±‚Æ
 `yyyymmdd_UserName_BranchName`
-BranchNameã¯å¤‰æ›´ç‚¹ãŒã‚ã‹ã‚Šã‚„ã™ã„åå‰ã«ã™ã‚‹ã“ã¨
+BranchName‚Í•ÏX“_‚ª‚í‚©‚è‚â‚·‚¢–¼‘O‚É‚·‚é‚±‚Æ
 
-### é–‹ç™ºé€²è¡Œã«ã¤ã„ã¦
-é–‹ç™ºé€²æ—ã«ã¤ã„ã¦ã¯ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®ã‚¿ã‚¹ã‚¯ã‚¹ãƒ¬ãƒƒãƒ‰ã§å…±æœ‰ã™ã‚‹ã“ã¨ã€‚<br>
-ã‚½ãƒ¼ã‚¹ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’ä¾é ¼ã—ãŸã„å ´åˆã«ã¯ã€å¯¾è±¡ã®`branch`ã‚’`Push`ã—ãŸã‚ã¨PRã§Draftã‚’ç™ºè¡Œã—ãƒ¡ãƒ³ã‚·ãƒ§ãƒ³ã‚’ã¤ã‘ã¦å…±æœ‰ã™ã‚‹ã“ã¨ã€‚
+### ŠJ”­is‚É‚Â‚¢‚Ä
+ŠJ”­i’»‚É‚Â‚¢‚Ä‚ÍƒvƒƒWƒFƒNƒg‚Ìƒ^ƒXƒNƒXƒŒƒbƒh‚Å‹¤—L‚·‚é‚±‚ÆB<br>
+ƒ\[ƒXƒŒƒrƒ…[‚ðˆË—Š‚µ‚½‚¢ê‡‚É‚ÍA‘ÎÛ‚Ì`branch`‚ð`Push`‚µ‚½‚ ‚ÆPR‚ÅDraft‚ð”­s‚µƒƒ“ƒVƒ‡ƒ“‚ð‚Â‚¯‚Ä‹¤—L‚·‚é‚±‚ÆB
 
-### é–‹ç™ºç’°å¢ƒã«ã¤ã„ã¦
-visual studio 2022ã§é€²ã‚ã¦ã„ã„ã¾ã™ã€‚
-â€»å¤ã„ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã ã¨ã‚µãƒãƒ¼ãƒˆã•ã‚Œã¦ã„ãªã„å¯èƒ½æ€§ãŒã‚ã‚‹ã®ã§æ³¨æ„ã—ã¦ãã ã•ã„ã€‚
+### ŠJ”­ŠÂ‹«‚É‚Â‚¢‚Ä
+visual studio 2022‚Åi‚ß‚Ä‚¢‚¢‚Ü‚·B
+¦ŒÃ‚¢ƒo[ƒWƒ‡ƒ“‚¾‚ÆƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚È‚¢‰Â”\«‚ª‚ ‚é‚Ì‚Å’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢B
 
 <br><br>
 
-## ç’°å¢ƒæº–å‚™ã¨ãƒ„ãƒ¼ãƒ«Wiki
+## ŠÂ‹«€”õ‚Æƒc[ƒ‹Wiki
 ---
 
 ### Visual_Studio_Code
 
-- [ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒªãƒ³ã‚¯](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
+- [ƒ_ƒEƒ“ƒ[ƒhƒŠƒ“ƒN](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
 ### Git_Hub
-- [Git_Hubã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®ä½œæˆæ–¹æ³•](https://jiyuta.com/github-account/)
+- [Git_HubƒAƒJƒEƒ“ƒg‚Ìì¬•û–@](https://jiyuta.com/github-account/)
 <br><br>
 
 ### Visual_Studio_2022
-
-<<<<<<< HEAD
 - [ƒ_ƒEƒ“ƒ[ƒhƒŠƒ“ƒN](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
-- [ƒCƒ“ƒXƒg[ƒ‹](/Common_Doc/HIow_To_Intall_Visual_Studio.md)
-- [‚¨‚·‚·‚ßÝ’è]() ©ì¬’†
-- [Žg‚¢•û]() ©ì¬’†
-=======
-- [ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒªãƒ³ã‚¯](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
-- [ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«](/Common_Doc/HIow_To_ntall_Visual_Studio.md)
-- [ãŠã™ã™ã‚è¨­å®š]() â†å·¥äº‹ä¸­
-- [ä½¿ã„æ–¹]() â†å·¥äº‹ä¸­
->>>>>>> 57238c45841afbbaa2cebfe4131488166729ffb5
+- [ƒCƒ“ƒXƒg[ƒ‹](/Common_Doc/HIow_To_ntall_Visual_Studio.md)
+- [‚¨‚·‚·‚ßÝ’è]() ©HŽ–’†
+- [Žg‚¢•û]() ©HŽ–’†
 <br><br>
 
 ### Git
- Gitã¯å­¦ç¿’ã¨æ…£ã‚Œã®ãŸã‚ã«GitBashã‚’ä½¿ç”¨ã—ã¾ã—ã‚‡ã†
-- [Gitã¨ã¯](https://wa3.i-3-i.info/word12778.html)
-- [ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒªãƒ³ã‚¯](https://gitforwindows.org/)
-- [ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ‰‹é †](https://qiita.com/suke_masa/items/404f06309bb32ca6c9c5)
-- [GitBashã®ä½¿ã„æ–¹](https://www.granfairs.com/blog/staff/gitbash-setting-shortcut)
+ Git‚ÍŠwK‚ÆŠµ‚ê‚Ì‚½‚ß‚ÉGitBash‚ðŽg—p‚µ‚Ü‚µ‚å‚¤
+- [Git‚Æ‚Í](https://wa3.i-3-i.info/word12778.html)
+- [ƒ_ƒEƒ“ƒ[ƒhƒŠƒ“ƒN](https://gitforwindows.org/)
+- [ƒCƒ“ƒXƒg[ƒ‹Žè‡](https://qiita.com/suke_masa/items/404f06309bb32ca6c9c5)
+- [GitBash‚ÌŽg‚¢•û](https://www.granfairs.com/blog/staff/gitbash-setting-shortcut)
 
 <br><br>
 
-# ãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«
+# ƒ`ƒ…[ƒgƒŠƒAƒ‹
 
-1. [ãƒªãƒã‚¸ãƒˆãƒªãƒ¼ã‚¯ãƒ­ãƒ¼ãƒ³ã®ä½œæˆ](/Common_Doc/Gow_To_Clone_Repojitories.md)
-2. [main_branchã‚’æœ€æ–°åŒ–(pull)]()
-3. [branchã®ä½œæˆãƒ»å‰Šé™¤](/Common_Doc/How_to_make_branch.md) [â†ãã‚‚ãã‚‚branchã¨ã¯ï¼Ÿ](https://backlog.com/ja/git-tutorial/stepup/01/)
-4. [ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç·¨é›†ã™ã‚‹]()â†å·¥äº‹ä¸­
-5. [`git commit`ã—ã¦å¤‰æ›´ã‚’ç¢ºå®šã•ã›ã‚‹ã€‚]()â†å·¥äº‹ä¸­
-6. [`git push`ã—ã¦GitHubã«ãƒ–ãƒ©ãƒ³ãƒã‚’ä¸Šã’ã‚‹]()â†å·¥äº‹ä¸­
+1. [ƒŠƒ|ƒWƒgƒŠ[ƒNƒ[ƒ“‚Ìì¬](/Common_Doc/Gow_To_Clone_Repojitories.md)
+2. [main_branch‚ðÅV‰»(pull)]()
+3. [branch‚Ìì¬Eíœ](/Common_Doc/How_to_make_branch.md) [©‚»‚à‚»‚àbranch‚Æ‚ÍH](https://backlog.com/ja/git-tutorial/stepup/01/)
+4. [ƒ\[ƒXƒtƒ@ƒCƒ‹‚ð•ÒW‚·‚é]()©HŽ–’†
+5. [`git commit`‚µ‚Ä•ÏX‚ðŠm’è‚³‚¹‚éB]()©HŽ–’†
+6. [`git push`‚µ‚ÄGitHub‚Éƒuƒ‰ƒ“ƒ`‚ðã‚°‚é]()©HŽ–’†
 

@@ -20,8 +20,11 @@ userのディレクトリーからであれば以下のコマンドで移動できます。<br>
 
 3.`main branch`を`git pull`しましょう。
 ```sh
-
+git pull
 ```
+
+
+
 # branchの移動
 1. `main branch`へ移動してみよう<br>
    `git checkout`コマンドで移動しよう。<br>
