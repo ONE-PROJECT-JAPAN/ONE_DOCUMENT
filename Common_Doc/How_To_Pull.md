@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@TSUBAKI-MORIMOTO 
-ONE-PROJECT-JAPAN
-/
-ONE_DOCUMENT
-Public
-Code
-Issues
-1
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-ONE_DOCUMENT/Common_Doc/How_To_Pull.md
-@TSUBAKI-MORIMOTO
-TSUBAKI-MORIMOTO added
-Latest commit 0455e32 3 minutes ago
- History
- 1 contributor
-35 lines (27 sloc)  970 Bytes
-
 # main branchをpullして最新にする。
 
 1. git Bash を起動しましょう
@@ -48,12 +18,23 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    `branch`が`main`でない場合は`branch`を移動しましょう。[branchの移動方法](#branchの移動)<br>
    ![hoge](/image/cd_repository.png)
 
-3.`main branch`を`git pull`しましょう。
-```sh
-git pull
-```
+3. `main branch`を`git pull`しましょう。<br>
+   ```sh
+   git pull
+   ```
+   以下のようになれば`pull`成功
+   ![hoge](/image/git_pull1.png)
+   <br><br>
+   以下の場合はすでに最新になっている。
+   ![hoge](/image/git_pull2.png)
+
+4. チュートリアル終了
+   
+[チュートリアルに戻る](/Read_Me.md#チュートリアル)
+<br><br>
 
 
+<br>
 
 # branchの移動
 1. `main branch`へ移動してみよう<br>
@@ -63,17 +44,7 @@ git pull
    git checkout [branch_name]
    ```
    ![hoge](/Image/switch_branch.png)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+   [手順に戻る](#main-branchをpullして最新にする)
+
+<br><br>
+[チュートリアルに戻る](/Read_Me.md#チュートリアル)

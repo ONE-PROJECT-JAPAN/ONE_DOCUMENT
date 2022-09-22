@@ -6,3 +6,5 @@
 
 - インストールコンポーネント　※個別のComponentはデフォルトでOK
   ![hoge](/Image/InstallComponent.png)
+
+[チュートリアルに戻る](/Read_Me.md#チュートリアル)

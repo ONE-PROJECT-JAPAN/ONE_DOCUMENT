@@ -1,64 +1,67 @@
-# branch�̍쐬�E�폜�̕��@
+# branchの作成
 
-1. git Bash ���N�����܂��傤
+1. git Bash を起動しましょう
    
    ![hoge](/Image/execute_git_bash.png) <br><br>
 
-2. branch����郊�|�W�g���[�ֈړ����܂��傤
-user�̃f�B���N�g���[����ł���Έȉ��̃R�}���h�ňړ��ł��܂��B<br>
-�������ONE_DOCUMENT��branch������Ă݂��B<br>
+2. branchを作るリポジトリーへ移動しましょう
+userのディレクトリーからであれば以下のコマンドで移動できます。<br>
+※今回はONE_DOCUMENTのbranchを作ってみす。<br>
 
    ```sh
    cd git/ONE_DOCUMENT
    ```
-   �ȉ��̂悤��`ONE_DOCUMENT`�̃f�B���N�g���[�ɂ����OK<br>
-   �����M�҂̊��ł�`work/`�z���ɂ���̂ŉ��L�̂悤�ɂȂ��Ă���B<br>
-   ������`ONE_DOCUMENT`�̌���`main`�ɂ����ځB<br>
-   �����ɂ͌��݂��鎩���̂���`branch`���\�������B
+   以下のように`ONE_DOCUMENT`のディレクトリーにいればOK<br>
+   ※執筆者の環境では`work/`配下にいるので下記のようになっている。<br>
+   併せて`ONE_DOCUMENT`の後ろの`main`にも注目。<br>
+   ここには現在いる自分のいる`branch`が表示される。
    ![hoge](/image/cd_repository.png)
 
-3. `main branch`���x�[�X�ɐV����`branch`����낤�B<br>
-   �ȉ��R�}���h��**�����鎩���̂���branch**���x�[�X��branch����邱�Ƃ��ł���B <br>
-   `[branch_name]`�̉ӏ��͔C�ӂ̖��O�ɒu�������悤�B
-   ### �u�����`�����K�� <br>
-   ��{�I�Ɉȉ��̒ʂ薽�������邱��<br>
+3. `main branch`をベースに新たに`branch`を作ろう。<br>
+   以下コマンドで**今いる自分のいるbranch**をベースにbranchを作ることができる。 <br>
+   `[branch_name]`の箇所は任意の名前に置き換えよう。
+   ### ブランチ命名規則 <br>
+   基本的に以下の通り命名をすること<br>
    `yyyymmdd_UserName_BranchName`<br>
-   BranchName�͕ύX�_���킩��₷�����O�ɂ��邱��<br>
+   BranchNameは変更点がわかりやすい名前にすること<br>
 
 
    ```sh
    git checkout -b [branch_name]
    ```
-   �ȉ��̂悤��`branch`���쐬�ł���ƍ쐬����`branch`�ɐ؂�ւ��<br>
+   以下のように`branch`が作成できると作成した`branch`に切り替わる<br>
 
    ![hoge](/image/checkout_mk_branch.png)
 
-   
-4. `branch`�̈ꗗ���m�F���悤<br>
-   `git branch`�R�}���h�Ŋm�F�ł���B
+# branchの確認
+4. `branch`の一覧を確認しよう<br>
+   `git branch`コマンドで確認できる。
    ```sh
    git branch
    ```
    ![hoge](Image/../../Image/show_branch.png)
 
-# branch�̈ړ�
-5. `main branch`�ֈړ����Ă݂悤<br>
-   `git checkout`�R�}���h�ňړ����悤�B<br>
-   �f�B���N�g���[���̉E����`(main)`�ɂȂ��OK
+# branchの移動
+5. `main branch`へ移動してみよう<br>
+   `git checkout`コマンドで移動しよう。<br>
+   ディレクトリー名の右側が`(main)`になればOK
    ```sh
    git checkout [branch_name]
    ```
    ![hoge](/Image/switch_branch.png)
 
-6. �쐬����branch���폜���Ă݂悤<br>
-   �Ƃ��� `branch -D`�R�}���h�ōs����<br>
-   `-D`�̕����͑啶���A�������ňӖ����ς��̂Œ��ӂ��܂��傤�B
+# branchの削除
+6. 作成したbranchを削除してみよう<br>
+   ときは `branch -D`コマンドで行える<br>
+   `-D`の部分は大文字、小文字で意味が変わるので注意しましょう。
    ```
    git branch -D [branch_name]
    ```
-   �폜�������`git branch`�����s���č폜���ꂽ���Ƃ��m�F
+   削除した後に`git branch`を実行して削除されたことも確認
    ![hoge](/image/delete_branch.png)
 
-�@�@
-7. �`���[�g���A���I��
+
+7. チュートリアル終了
+   
+   [チュートリアルに戻る](/Read_Me.md#チュートリアル)
    
