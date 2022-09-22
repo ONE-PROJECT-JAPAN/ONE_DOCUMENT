@@ -34,14 +34,15 @@ userのディレクトリーからであれば以下のコマンドで移動できます。<br>
    ![hoge](/image/checkout_mk_branch.png)
 
    
-4. `branch`の一覧を確認する。<br>
+4. `branch`の一覧を確認しよう<br>
    `git branch`コマンドで確認できる。
    ```sh
    git branch
    ```
    ![hoge](Image/../../Image/show_branch.png)
 
-5. `main branch`へ移動
+# branchの移動
+5. `main branch`へ移動してみよう<br>
    `git checkout`コマンドで移動しよう。<br>
    ディレクトリー名の右側が`(main)`になればOK
    ```sh
@@ -49,7 +50,7 @@ userのディレクトリーからであれば以下のコマンドで移動できます。<br>
    ```
    ![hoge](/Image/switch_branch.png)
 
-6. 作成したbranchを削除<br>
+6. 作成したbranchを削除してみよう<br>
    ときは `branch -D`コマンドで行える<br>
    `-D`の部分は大文字、小文字で意味が変わるので注意しましょう。
    ```
