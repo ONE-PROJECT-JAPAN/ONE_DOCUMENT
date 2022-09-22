@@ -2,7 +2,7 @@
 
 1. git Bash を起動しましょう
    
-   ![hoge](/Image/execute_git_bash.png) <br><br>
+   ![hoge](../Image/execute_git_bash.png) <br><br>
 
 2. `pull`するリポジトリーへ移動しましょう
 userのディレクトリーからであれば以下のコマンドで移動できます。<br>
@@ -16,23 +16,22 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    併せて`ONE_DOCUMENT`の後ろの`main`にも注目。
    ここには現在いる自分のいる`branch`が表示される。<br>
    `branch`が`main`でない場合は`branch`を移動しましょう。[branchの移動方法](#branchの移動)<br>
-   ![hoge](/image/cd_repository.png)
+   ![hoge](../Image/cd_repository.png)
 
 3. `main branch`を`git pull`しましょう。<br>
    ```sh
    git pull
    ```
    以下のようになれば`pull`成功
-   ![hoge](/image/git_pull1.png)
+   ![hoge](../Image/git_pull1.png)
    <br><br>
    以下の場合はすでに最新になっている。
-   ![hoge](/image/git_pull2.png)
+   ![hoge](../Image/git_pull2.png)
 
 4. チュートリアル終了
    
-[チュートリアルに戻る](/Read_Me.md#チュートリアル)
+[チュートリアルに戻る](./Read_Me.md#チュートリアル)
 <br><br>
-
 
 <br>
 
@@ -43,8 +42,9 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    ```sh
    git checkout [branch_name]
    ```
-   ![hoge](/Image/switch_branch.png)
+   ![hoge](../Image/switch_branch.png)
+
    [手順に戻る](#main-branchをpullして最新にする)
 
 <br><br>
-[チュートリアルに戻る](/Read_Me.md#チュートリアル)
+[チュートリアルに戻る](./Read_Me.md#チュートリアル)

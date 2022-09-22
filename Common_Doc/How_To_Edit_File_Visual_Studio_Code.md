@@ -1,25 +1,25 @@
 # ソースファイルを編集する(Visual_Studio_Code編
 編集する前に編集用のbranchを作って切り替えて置くこと<br>
-[branchを作成する](/Common_Doc/How_To_Make_Branch.md)
+[branchを作成する](./Common_Doc/How_To_Make_Branch.md)
 
 
 ## 1 Visual_Studio_Codeを起動する。
 Visual_Studio_Codeがインストールされていれば`Windowsキー`をおして
-![hoge](/Image/Start_Visual_Studio.png)
+![hoge](../Image/Start_Visual_Studio.png)
 
 
 ## 2 Gitのフォルダーを開く
 1. フォルダーをクリック 
-   ![hoge](/Image/Open_Folder_Visual_Studio.png)
+   ![hoge](../Image/Open_Folder_Visual_Studio.png)
 
 2. `git`フォルダーを開く
-   ![hoge](/Image/Select_Folder_Visual_Studio.png)
+   ![hoge](../Image/Select_Folder_Visual_Studio.png)
 
 3. フォルダーの信頼確認が出るのでそのまますべて信頼をクリック
-   ![hoge](/image/Folder_Approval.png)
+   ![hoge](../Image/Folder_Approval.png)
 
 4. git のフォルダーが以下ように表示されればOK
-   ![hoge](/image/Visual_Studio_Code_Added_Folder.png)
+   ![hoge](../Image/Visual_Studio_Code_Added_Folder.png)
    
 
 ## 3 ワークスペースを保存する
@@ -34,4 +34,4 @@ Visual_Studio_Codeがインストールされていれば`Windowsキー`をお�
    そこからすぐに開くことができる。
    もしくは、Visual_Studio_Codeを実行するとデフォルトで開かれる。
 
-   [チュートリアルに戻る](/Read_Me.md#チュートリアル)
+   [チュートリアルに戻る](./Read_Me.md#チュートリアル)

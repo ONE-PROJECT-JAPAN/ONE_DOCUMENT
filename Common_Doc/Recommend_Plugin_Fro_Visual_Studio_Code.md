@@ -21,4 +21,4 @@ https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio<br>
 リンク: https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug<br>
 <br><br>
 
-[チュートリアルに戻る](/Read_Me.md#チュートリアル)
+[チュートリアルに戻る](./Read_Me.md#チュートリアル)

@@ -4,7 +4,7 @@
 
 1. git Bash を起動しましょう
    
-   ![hoge](/Image/execute_git_bash.png) <br><br>
+   ![hoge](../Image/execute_git_bash.png) <br><br>
 
  
 2. git用のディレクトリーを作りましょう
@@ -15,7 +15,7 @@
    pwd 
    ```
 
-   ![hobe](/Image/Git_Pwd.png)
+   ![hobe](../Image/Git_Pwd.png)
 
    次にディレクトリを作ります。<br>
    `mkdir git`コマンドを実行してみましょう。
@@ -26,7 +26,7 @@
    ```bash
    ls
    ```
-   ![hoge](/Image/git_ll_png.png)<br>
+   ![hoge](../Image/git_ll_png.png)<br>
    このように`git`フォルダーができていればOKです。<br><br>
 
 3. `git`フォルダーにCloneを作りましょう
@@ -47,17 +47,17 @@
 
    GitHub URL はCloneしたいリポジトリの以下から確認できます。
    今回はONE_DOCUMENTのリポジトリーをCloneしましょう。
-   ![hoge](/Image/git_hub_cli.png)
+   ![hoge](../Image/git_hub_cli.png)
    ```bash
    git clone https://github.com/ONE-PROJECT-JAPAN/ONE_DOCUMENT.git
    ```
    以下のように`done`していたら成功
 
-   ![hoge](/Image/git_clone.png)
+   ![hoge](../Image/git_clone.png)
 
    Explorerで見るとファイルができている
    
-   ![hoge](/Image/git_clone_Check.png)
+   ![hoge](../Image/git_clone_Check.png)
 
 
-[チュートリアルに戻る](/Read_Me.md#チュートリアル)
+[チュートリアルに戻る](./Read_Me.md#チュートリアル)
