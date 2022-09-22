@@ -1,8 +1,8 @@
-### Visual_Sudio_2022‚ÌƒCƒ“ƒXƒg[ƒ‹•û–@
-- [ƒ_ƒEƒ“ƒ[ƒhƒŠƒ“ƒN](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
+### Visual_Sudio_2022ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•
+- [ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒªãƒ³ã‚¯](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
 ![hoge](/Image/visual_studio_2022_download.png)
 (
-- [ƒCƒ“ƒXƒg[ƒ‹è‡](https://learn.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2022)
+- [ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ‰‹é †](https://learn.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2022)
 
-- ƒCƒ“ƒXƒg[ƒ‹ƒRƒ“ƒ|[ƒlƒ“ƒg@¦ŒÂ•Ê‚ÌComponent‚ÍƒfƒtƒHƒ‹ƒg‚ÅOK
+- ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã€€â€»å€‹åˆ¥ã®Componentã¯ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§OK
   ![hoge](/Image/InstallComponent.png)

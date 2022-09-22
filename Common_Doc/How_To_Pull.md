@@ -1,35 +1,79 @@
-# main branch‚ğpull‚µ‚ÄÅV‚É‚·‚éB
+Skip to content
+Search or jump toâ€¦
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@TSUBAKI-MORIMOTO 
+ONE-PROJECT-JAPAN
+/
+ONE_DOCUMENT
+Public
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ONE_DOCUMENT/Common_Doc/How_To_Pull.md
+@TSUBAKI-MORIMOTO
+TSUBAKI-MORIMOTO added
+Latest commit 0455e32 3 minutes ago
+ History
+ 1 contributor
+35 lines (27 sloc)  970 Bytes
 
-1. git Bash ‚ğ‹N“®‚µ‚Ü‚µ‚å‚¤
+# main branchã‚’pullã—ã¦æœ€æ–°ã«ã™ã‚‹ã€‚
+
+1. git Bash ã‚’èµ·å‹•ã—ã¾ã—ã‚‡ã†
    
    ![hoge](/Image/execute_git_bash.png) <br><br>
 
-2. `pull`‚·‚éƒŠƒ|ƒWƒgƒŠ[‚ÖˆÚ“®‚µ‚Ü‚µ‚å‚¤
-user‚ÌƒfƒBƒŒƒNƒgƒŠ[‚©‚ç‚Å‚ ‚ê‚ÎˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ÅˆÚ“®‚Å‚«‚Ü‚·B<br>
-¦¡‰ñ‚ÍONE_DOCUMENT‚Ìbranch‚ğì‚Á‚Ä‚İ‚·B<br>
+2. `pull`ã™ã‚‹ãƒªãƒã‚¸ãƒˆãƒªãƒ¼ã¸ç§»å‹•ã—ã¾ã—ã‚‡ã†
+userã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒ¼ã‹ã‚‰ã§ã‚ã‚Œã°ä»¥ä¸‹ã®ã‚³ãƒãƒ³ãƒ‰ã§ç§»å‹•ã§ãã¾ã™ã€‚<br>
+â€»ä»Šå›ã¯ONE_DOCUMENTã®branchã‚’ä½œã£ã¦ã¿ã™ã€‚<br>
 
    ```sh
    cd git/ONE_DOCUMENT
    ```
-   ˆÈ‰º‚Ì‚æ‚¤‚É`ONE_DOCUMENT`‚ÌƒfƒBƒŒƒNƒgƒŠ[‚É‚¢‚ê‚ÎOK<br>
-   ¦·•MÒ‚ÌŠÂ‹«‚Å‚Í`work/`”z‰º‚É‚¢‚é‚Ì‚Å‰º‹L‚Ì‚æ‚¤‚É‚È‚Á‚Ä‚¢‚éB<br>
-   •¹‚¹‚Ä`ONE_DOCUMENT`‚ÌŒã‚ë‚Ì`main`‚É‚à’–ÚB
-   ‚±‚±‚É‚ÍŒ»İ‚¢‚é©•ª‚Ì‚¢‚é`branch`‚ª•\¦‚³‚ê‚éB<br>
-   `branch`‚ª`main`‚Å‚È‚¢ê‡‚Í`branch`‚ğˆÚ“®‚µ‚Ü‚µ‚å‚¤B[branch‚ÌˆÚ“®•û–@](#branch‚ÌˆÚ“®)<br>
+   ä»¥ä¸‹ã®ã‚ˆã†ã«`ONE_DOCUMENT`ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒ¼ã«ã„ã‚Œã°OK<br>
+   â€»åŸ·ç­†è€…ã®ç’°å¢ƒã§ã¯`work/`é…ä¸‹ã«ã„ã‚‹ã®ã§ä¸‹è¨˜ã®ã‚ˆã†ã«ãªã£ã¦ã„ã‚‹ã€‚<br>
+   ä½µã›ã¦`ONE_DOCUMENT`ã®å¾Œã‚ã®`main`ã«ã‚‚æ³¨ç›®ã€‚
+   ã“ã“ã«ã¯ç¾åœ¨ã„ã‚‹è‡ªåˆ†ã®ã„ã‚‹`branch`ãŒè¡¨ç¤ºã•ã‚Œã‚‹ã€‚<br>
+   `branch`ãŒ`main`ã§ãªã„å ´åˆã¯`branch`ã‚’ç§»å‹•ã—ã¾ã—ã‚‡ã†ã€‚[branchã®ç§»å‹•æ–¹æ³•](#branchã®ç§»å‹•)<br>
    ![hoge](/image/cd_repository.png)
 
-3.`main branch`‚ğ`git pull`‚µ‚Ü‚µ‚å‚¤B
+3.`main branch`ã‚’`git pull`ã—ã¾ã—ã‚‡ã†ã€‚
 ```sh
 git pull
 ```
 
 
 
-# branch‚ÌˆÚ“®
-1. `main branch`‚ÖˆÚ“®‚µ‚Ä‚İ‚æ‚¤<br>
-   `git checkout`ƒRƒ}ƒ“ƒh‚ÅˆÚ“®‚µ‚æ‚¤B<br>
-   ƒfƒBƒŒƒNƒgƒŠ[–¼‚Ì‰E‘¤‚ª`(main)`‚É‚È‚ê‚ÎOK
+# branchã®ç§»å‹•
+1. `main branch`ã¸ç§»å‹•ã—ã¦ã¿ã‚ˆã†<br>
+   `git checkout`ã‚³ãƒãƒ³ãƒ‰ã§ç§»å‹•ã—ã‚ˆã†ã€‚<br>
+   ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒ¼åã®å³å´ãŒ`(main)`ã«ãªã‚Œã°OK
    ```sh
    git checkout [branch_name]
    ```
    ![hoge](/Image/switch_branch.png)
+Footer
+Â© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

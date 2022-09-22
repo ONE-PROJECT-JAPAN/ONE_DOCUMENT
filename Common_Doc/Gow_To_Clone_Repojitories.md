@@ -1,60 +1,60 @@
-### ���|�W�g���[�N���[���̍���
+### レポジトリークローンの作り方
 
-�����ONE_DOCUMENT�̃N���[���쐻���ɂ��Đ������܂��B
+今回はONE_DOCUMENTのクローン作製を例にして説明します。
 
-1. git Bash ���N�����܂��傤
+1. git Bash を起動しましょう
    
    ![hoge](/Image/execute_git_bash.png) <br><br>
 
  
-2. git�p�̃f�B���N�g���[�����܂��傤
+2. git用のディレクトリーを作りましょう
    
-   �܂������̏ꏊ���m�F���邽��`pwd`�R�}���h�����s���Ă݂܂��傤�B<br>
-   `User`�z���̎����̃t�H���_�[�ɂ����OK
+   まず自分の場所を確認するため`pwd`コマンドを実行してみましょう。<br>
+   `User`配下の自分のフォルダーにいればOK
    ```bash
    pwd 
    ```
 
    ![hobe](/Image/Git_Pwd.png)
 
-   ���Ƀf�B���N�g�������܂��B<br>
-   `mkdir git`�R�}���h�����s���Ă݂܂��傤�B
+   次にディレクトリを作ります。<br>
+   `mkdir git`コマンドを実行してみましょう。
    ```bash
    mkdir git
    ```
-   ����Ńf�B���N�g�����쐬����܂����͂��Ȃ̂�`ls`�R�}���h�Ŋm�F���Ă݂܂��傤�B
+   これでディレクトリが作成されましたはずなので`ls`コマンドで確認してみましょう。
    ```bash
    ls
    ```
    ![hoge](/Image/git_ll_png.png)<br>
-   ���̂悤��`git`�t�H���_�[���ł��Ă����OK�ł��B<br><br>
+   このように`git`フォルダーができていればOKです。<br><br>
 
-3. `git`�t�H���_�[��Clone�����܂��傤
+3. `git`フォルダーにCloneを作りましょう
    
-   git�t�H���_�[�Ɉړ����܂��B�ȉ���`cd`�R�}���h�����s���܂��B
+   gitフォルダーに移動します。以下の`cd`コマンドを実行します。
    ```bash
    cd git
    ```
    
-   ���s��m�F���������`pwd`�R�}���h�ňړ��ł������m�F�ł��܂��B
+   実行後確認したければ`pwd`コマンドで移動できたか確認できます。
    ```bash
    pwd
    ```
 
-   �ړ��ł������Ƃ��m�F�����瑁���N���[��������Ă݂܂��傤�B
-   `git Clone [Git Hub CLI]` �R�}���h�����s���܂��B
+   移動できたことを確認したら早速クローンを作ってみましょう。
+   `git Clone [Git Hub CLI]` コマンドを実行します。
 
 
-   GitHub URL ��Clone���������|�W�g���̈ȉ�����m�F�ł��܂��B
-   �����ONE_DOCUMENT�̃��|�W�g���[��Clone���܂��傤�B
+   GitHub URL はCloneしたいリポジトリの以下から確認できます。
+   今回はONE_DOCUMENTのリポジトリーをCloneしましょう。
    ![hoge](/Image/git_hub_cli.png)
    ```bash
    git clone https://github.com/ONE-PROJECT-JAPAN/ONE_DOCUMENT.git
    ```
-   �ȉ��̂悤��`done`���Ă����琬��
+   以下のように`done`していたら成功
 
    ![hoge](/Image/git_clone.png)
 
-   Explorer�Ō���ƃt�@�C�����ł��Ă���
+   Explorerで見るとファイルができている
    
    ![hoge](/Image/git_clone_Check.png)

@@ -1,65 +1,69 @@
 # Read Me
 
-�`�[���ɐV���ɎQ���������͕K���ڂ�ʂ��Ă����Ă��������B
+チームに新たに参加した方は必ず目を通しておいてください。
 
 <br><br>
 
-## ���|�W�g���[���[��
+## リポジトリールール
 ---
-### �u�����`�ɂ���
-��{�I��`main`�u�����`��`Push`�֎~�ł��B
-�����g�̒��ŊǗ����Ă���֌W��main�u�����`��`Push`�ł��Ă��܂����ߒ��ӂ��Ă��������B
+### ブランチについて
+基本的に`main`ブランチは`Push`禁止です。
+無料枠の中で管理している関係上mainブランチに`Push`できてしまうため注意してください。
 
-������`Push`���Ă��܂����ꍇ�ɂ̓`�[���f�B�X�J�b�V�����ŕ񍐂����肢���܂��B������ŕ������s���܂��B
+万が一`Push`してしまった場合にはチームディスカッションで報告をお願いします。こちらで復元を行います。
 
-### �u�����`�����K��
-��{�I�Ɉȉ��̒ʂ薽�������邱��
+### ブランチ命名規則
+基本的に以下の通り命名をすること
 `yyyymmdd_UserName_BranchName`
-BranchName�͕ύX�_���킩��₷�����O�ɂ��邱��
+BranchNameは変更点がわかりやすい名前にすること
 
-### �J���i�s�ɂ���
-�J���i���ɂ��Ă̓v���W�F�N�g�̃^�X�N�X���b�h�ŋ��L���邱�ƁB<br>
-�\�[�X���r���[���˗��������ꍇ�ɂ́A�Ώۂ�`branch`��`Push`��������PR��Draft�𔭍s�������V���������ċ��L���邱�ƁB
+### 開発進行について
+開発進捗についてはプロジェクトのタスクスレッドで共有すること。<br>
+ソースレビューを依頼したい場合には、対象の`branch`を`Push`したあとPRでDraftを発行しメンションをつけて共有すること。
 
-### �J�����ɂ���
-visual studio 2022�Ői�߂Ă����܂��B
-���Â��o�[�W�������ƃT�|�[�g����Ă��Ȃ��\��������̂Œ��ӂ��Ă��������B
+### 開発環境について
+visual studio 2022で進めていいます。
+※古いバージョンだとサポートされていない可能性があるので注意してください。
 
 <br><br>
 
-## �������ƃc�[��Wiki
+## 環境準備とツールWiki
 ---
 
 ### Visual_Studio_Code
 
-- [�_�E�����[�h�����N](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
-
+- [ダウンロードリンク](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
+- [日本語表示化](https://digitor.jp/textbook/vscode-japanese/)
+- 
+- [文字エンコードのデフォルトをUTF-8にする](https://www.javadrive.jp/vscode/setting/index4.html)
+- 
 ### Git_Hub
-- [Git_Hub�A�J�E���g�̍쐬���@](https://jiyuta.com/github-account/)
+- [Git_Hubアカウントの作成方法](https://jiyuta.com/github-account/)
 <br><br>
 
 ### Visual_Studio_2022
-- [�_�E�����[�h�����N](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
-- [�C���X�g�[��](/Common_Doc/HIow_To_ntall_Visual_Studio.md)
-- [�������ߐݒ�]() ���H����
-- [�g����]() ���H����
+- [ダウンロードリンク](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
+- [インストール](/Common_Doc/HIow_To_ntall_Visual_Studio.md)
+- [プラグイン一覧]()←工事中
+- [おすすめ設定]() ←工事中
+- [使い方]() ←工事中
 <br><br>
 
 ### Git
- Git�͊w�K�Ɗ���̂��߂�GitBash���g�p���܂��傤
-- [Git�Ƃ�](https://wa3.i-3-i.info/word12778.html)
-- [�_�E�����[�h�����N](https://gitforwindows.org/)
-- [�C���X�g�[���菇](https://qiita.com/suke_masa/items/404f06309bb32ca6c9c5)
-- [GitBash�̎g����](https://www.granfairs.com/blog/staff/gitbash-setting-shortcut)
+ Gitは学習と慣れのためにGitBashを使用しましょう
+- [Gitとは](https://wa3.i-3-i.info/word12778.html)
+- [ダウンロードリンク](https://gitforwindows.org/)
+- [インストール手順](https://qiita.com/suke_masa/items/404f06309bb32ca6c9c5)
+- [GitBashの使い方](https://www.granfairs.com/blog/staff/gitbash-setting-shortcut)
 
 <br><br>
 
-# �`���[�g���A��
+# チュートリアル
 
-1. [���|�W�g���[�N���[���̍쐬](/Common_Doc/Gow_To_Clone_Repojitories.md)
-2. [main_branch���ŐV��(pull)]()
-3. [branch�̍쐬�E�폜](/Common_Doc/How_to_make_branch.md) [����������branch�Ƃ́H](https://backlog.com/ja/git-tutorial/stepup/01/)
-4. [�\�[�X�t�@�C����ҏW����]()���H����
-5. [`git commit`���ĕύX���m�肳����B]()���H����
-6. [`git push`����GitHub�Ƀu�����`���グ��]()���H����
+1. [リポジトリークローンの作成](/Common_Doc/Gow_To_Clone_Repojitories.md)
+2. [main_branchを最新化(pull)]()
+3. [branchの作成・削除](/Common_Doc/How_to_make_branch.md) [←そもそもbranchとは？](https://backlog.com/ja/git-tutorial/stepup/01/)
+4. [ソースファイルを編集する]()←工事中
+5. [`git commit`して変更を確定させる。]()←工事中
+6. [`git push`してGitHubにブランチを上げる]()←工事中
 
