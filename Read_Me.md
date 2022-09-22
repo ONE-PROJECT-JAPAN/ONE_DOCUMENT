@@ -16,8 +16,8 @@
 
 <br><br>
 
-## リポジトリールール
----
+# リポジトリールール
+
 ### ブランチについて
 基本的に`main`ブランチは`Push`禁止です。
 無料枠の中で管理している関係上mainブランチに`Push`できてしまうため注意してください。
@@ -39,21 +39,21 @@ visual studio 2022で進めていいます。
 
 <br><br>
 
-## 環境準備とツールWiki
----
+# 環境準備とツールWiki
 
-### Visual_Studio_Code
+
+## Visual_Studio_Code
 
 - [ダウンロードリンク](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 - [日本語表示化](https://digitor.jp/textbook/vscode-japanese/)
 - [プラグイン一覧](./Common_Doc/Recommend_Plugin_Fro_Visual_Studio_Code.md)
 - [文字エンコードのデフォルトをUTF-8にする](https://www.javadrive.jp/vscode/setting/index4.html)
 - 
-### Git_Hub
+## Git_Hub
 - [Git_Hubアカウントの作成方法](https://jiyuta.com/github-account/)
 <br><br>
 
-### Visual_Studio_2022
+## Visual_Studio_2022
 - [ダウンロードリンク](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
 - [インストール](./Common_Doc/HIow_To_Intall_Visual_Studio.md)
 - [プラグイン一覧]()←工事中
@@ -61,7 +61,7 @@ visual studio 2022で進めていいます。
 - [使い方]() ←工事中
 <br><br>
 
-### Git
+## Git
  Gitは学習と慣れのためにGitBashを使用しましょう
 - [Gitとは](https://wa3.i-3-i.info/word12778.html)
 - [ダウンロードリンク](https://gitforwindows.org/)
@@ -71,7 +71,6 @@ visual studio 2022で進めていいます。
 <br><br>
 
 # チュートリアル
-
 1. [リポジトリークローンの作成](./Common_Doc/Gow_To_Clone_Repojitories.md)
 2. [main_branchを最新化(pull)](./Common_Doc/How_To_Pull.md)
 3. [branchの作成・削除](./Common_Doc/How_to_make_branch.md) [←そもそもbranchとは？](https://backlog.com/ja/git-tutorial/stepup/01/)
