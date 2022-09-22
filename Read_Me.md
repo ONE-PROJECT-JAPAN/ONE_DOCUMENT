@@ -43,7 +43,7 @@ visual studio 2022で進めていいます。
 
 ### Visual_Studio_2022
 - [ダウンロードリンク](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
-- [インストール](./Common_Doc/HIow_To_ntall_Visual_Studio.md)
+- [インストール](./Common_Doc/HIow_To_Intall_Visual_Studio.md)
 - [プラグイン一覧]()←工事中
 - [おすすめ設定]()←工事中
 - [使い方]() ←工事中
