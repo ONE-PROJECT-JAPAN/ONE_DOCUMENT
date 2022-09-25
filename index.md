@@ -1,5 +1,5 @@
 
-<link href=".\css\StyleSheet.css" rel="stylesheet"></link>
+<link href=".\css\StyleSheet.css" rel="stylesheet"/>
 
 # [Read Me](./Read_Me.md)
   まずはここのドキュメント管理のルールについてこちらをご覧ください。
