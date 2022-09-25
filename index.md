@@ -15,3 +15,6 @@
 共有技術ドキュメント
 
 
+<!--#include file="Read_Me.md" --> 
+
+
