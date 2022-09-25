@@ -1,8 +1,14 @@
+<link href=".\css\main.css" rel="stylesheet"></link>
+
 # [Read Me](./Read_Me.md)
   まずはここのドキュメント管理のルールについてこちらをご覧ください。
   
+<br><br>
 
-# [ONE Technical]
-   [共有技術情報](./Technical_Index.md)
+# [ONE Technical](./Technical_Index.md)
+共有技術ドキュメント
 
-# []
+<br><br>
+
+# [ONE Technical](./Technical_Index.md)
+共有技術ドキュメント
