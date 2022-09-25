@@ -2,7 +2,7 @@
 
 1. git Bash を起動しましょう
    
-   ![hoge](/Image/execute_git_bash.png) <br><br>
+   ![hoge](../Image/execute_git_bash.png) <br><br>
 
 2. branchを作るリポジトリーへ移動しましょう
 userのディレクトリーからであれば以下のコマンドで移動できます。<br>
@@ -15,7 +15,7 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    ※執筆者の環境では`work/`配下にいるので下記のようになっている。<br>
    併せて`ONE_DOCUMENT`の後ろの`main`にも注目。<br>
    ここには現在いる自分のいる`branch`が表示される。
-   ![hoge](/image/cd_repository.png)
+   ![hoge](../Image/cd_repository.png)
 
 3. `main branch`をベースに新たに`branch`を作ろう。<br>
    以下コマンドで**今いる自分のいるbranch**をベースにbranchを作ることができる。 <br>
@@ -31,7 +31,7 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    ```
    以下のように`branch`が作成できると作成した`branch`に切り替わる<br>
 
-   ![hoge](/image/checkout_mk_branch.png)
+   ![hoge](../Image/checkout_mk_branch.png)
 
 # branchの確認
 4. `branch`の一覧を確認しよう<br>
@@ -39,7 +39,7 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    ```sh
    git branch
    ```
-   ![hoge](Image/../../Image/show_branch.png)
+   ![hoge](../Image/show_branch.png)
 
 # branchの移動
 5. `main branch`へ移動してみよう<br>
@@ -48,7 +48,7 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    ```sh
    git checkout [branch_name]
    ```
-   ![hoge](/Image/switch_branch.png)
+   ![hoge](../Image/switch_branch.png)
 
 # branchの削除
 6. 作成したbranchを削除してみよう<br>
@@ -58,10 +58,10 @@ userのディレクトリーからであれば以下のコマンドで移動で�
    git branch -D [branch_name]
    ```
    削除した後に`git branch`を実行して削除されたことも確認
-   ![hoge](/image/delete_branch.png)
+   ![hoge](../Image/delete_branch.png)
 
 
 7. チュートリアル終了
    
-   [チュートリアルに戻る](/Read_Me.md#チュートリアル)
+   [チュートリアルに戻る](../Read_Me.md#チュートリアル)
    
