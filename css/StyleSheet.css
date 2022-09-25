@@ -7,10 +7,17 @@ body {
     background-color:#2c2c2c;
  
   }
+.language-bash {
+  
+  background-color: #2c2c2c ;
+  color: #fdfdfd ;
+}
+
+
+  
 
 .entry-content pre.code {
-    background-color: #2c2c2c ;
-    color: #111111 ;
+
 }
 .synSpecial { color: #c000c0; }
 .synType { color: #3EC63E; }
