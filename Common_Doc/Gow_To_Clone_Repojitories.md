@@ -1,5 +1,5 @@
-  <link href=".\css\StyleSheet.css" rel="stylesheet">
-  </link>
+  <link href=".\css\StyleSheet.css" rel="stylesheet"/>
+ 
   
 ### レポジトリークローンの作り方
 

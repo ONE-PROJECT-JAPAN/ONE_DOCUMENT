@@ -1,5 +1,5 @@
-  <link href=".\css\StyleSheet.css" rel="stylesheet">
-  </link>
+  <link href=".\css\StyleSheet.css" rel="stylesheet"/>
+ 
 
 # Command Promptでよく使うCommand一覧
 

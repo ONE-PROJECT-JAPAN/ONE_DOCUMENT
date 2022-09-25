@@ -1,5 +1,5 @@
-  <link href=".\css\StyleSheet.css" rel="stylesheet">
-  </link>
+  <link href=".\css\StyleSheet.css" rel="stylesheet"/>
+ 
 
 # ソースファイルを編集する(Visual_Studio_Code編
 編集する前に編集用のbranchを作って切り替えて置くこと<br>

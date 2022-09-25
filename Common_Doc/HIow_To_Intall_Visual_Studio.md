@@ -1,5 +1,5 @@
-  <link href=".\css\StyleSheet.css" rel="stylesheet">
-  </link>
+  <link href=".\css\StyleSheet.css" rel="stylesheet"/>
+ 
 
 ### Visual_Sudio_2022のインストール方法
 - [ダウンロードリンク](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
