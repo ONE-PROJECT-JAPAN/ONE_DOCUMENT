@@ -1,10 +1,3 @@
-<link href=".\css\StyleSheet.css" rel="stylesheet">
-</link>
-
-
-
-
-
 
 # [Read Me](./Read_Me.md)
   まずはここのドキュメント管理のルールについてこちらをご覧ください。
