@@ -1,6 +1,5 @@
 
 <link href=".\css\StyleSheet.css" rel="stylesheet"/>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 # [Read Me](./Read_Me.md)
   まずはここのドキュメント管理のルールについてこちらをご覧ください。
@@ -16,3 +15,7 @@
 共有技術ドキュメント
 
 
+:::note info
+インフォメーション
+infoは省略可能です。
+:::
