@@ -1,3 +1,6 @@
+  <link href=".\css\StyleSheet.css" rel="stylesheet">
+  </link>
+
 # main branchをpullして最新にする。
 
 1. git Bash を起動しましょう

@@ -1,3 +1,6 @@
+  <link href=".\css\StyleSheet.css" rel="stylesheet">
+  </link>
+
 ### Visual_Sudio_2022のインストール方法
 - [ダウンロードリンク](https://visualstudio.microsoft.com/ja/vs/whatsnew/)
 ![hoge](../Image/visual_studio_2022_download.png)

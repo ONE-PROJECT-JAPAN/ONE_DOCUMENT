@@ -1,3 +1,6 @@
+  <link href=".\css\StyleSheet.css" rel="stylesheet">
+  </link>
+  
 ### レポジトリークローンの作り方
 
 今回はONE_DOCUMENTのクローン作製を例にして説明します。

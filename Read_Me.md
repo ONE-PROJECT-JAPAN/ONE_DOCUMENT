@@ -1,3 +1,6 @@
+  <link href=".\css\StyleSheet.css" rel="stylesheet">
+  </link>
+
 # Read Me
 
 チームに新たに参加した方は必ず目を通しておいてください。

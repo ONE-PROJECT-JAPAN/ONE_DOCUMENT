@@ -1,3 +1,6 @@
+  <link href=".\css\StyleSheet.css" rel="stylesheet">
+  </link>
+
 # ソースファイルを編集する(Visual_Studio_Code編
 編集する前に編集用のbranchを作って切り替えて置くこと<br>
 [branchを作成する](./Common_Doc/How_To_Make_Branch.md)
