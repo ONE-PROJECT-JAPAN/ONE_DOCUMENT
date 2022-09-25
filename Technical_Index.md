@@ -79,7 +79,7 @@
 - [C#とは](https://e-words.jp/w/C-.html)
 
 ## Command Prompt
-- [Command Promptとは]([リンク](https://e-words.jp/w/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88.html))
+- [Command Promptとは](https://e-words.jp/w/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88.html)
 - [覚えておくと便利なコマンド一覧](./Doc/CMD_Command.md)
 
 ## Java
