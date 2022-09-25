@@ -16,6 +16,3 @@
 共有技術ドキュメント
 
 
-
-<script src="sample.js"></script>
-<script>header();</script>
