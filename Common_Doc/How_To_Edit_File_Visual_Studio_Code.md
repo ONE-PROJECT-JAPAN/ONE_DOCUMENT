@@ -1,4 +1,4 @@
-<link href=".\css\StyleSheet.css" rel="stylesheet"/>
+<link href="..\css\StyleSheet.css" rel="stylesheet"/>
  
 
 # ソースファイルを編集する(Visual_Studio_Code編
