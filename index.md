@@ -2,8 +2,10 @@
     <head>　
         <meta charset="utf-8">　
         <title>ONE_DOCUMENT</title>　
-        <link href=".\css\StyleSheet.css" rel="stylesheet"> </link>
+        <link href=".\css\StyleSheet.css" rel="stylesheet">
+        </link>
     </head>
+</html>
 
 <body>
 
@@ -32,4 +34,3 @@
 </div>
 </article>
 </body>
-</html>
