@@ -1,4 +1,4 @@
-  <link href=".\css\StyleSheet.css" rel="stylesheet"/>
+<link href=".\css\StyleSheet.css" rel="stylesheet"/>
  
 
 # Command Promptでよく使うCommand一覧

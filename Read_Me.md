@@ -1,4 +1,4 @@
-  <link href=".\css\StyleSheet.css" rel="stylesheet"/>
+<link href=".\css\StyleSheet.css" rel="stylesheet"/>
  
 
 # Read Me
@@ -74,7 +74,7 @@ visual studio 2022で進めていいます。
 <br><br>
 
 # チュートリアル
-1. [リポジトリークローンの作成](./Common_Doc/Gow_To_Clone_Repojitories.md)
+1. [リポジトリークローンの作成](./Common_Doc/How_To_Clone_Repojitories.md)
 2. [main_branchを最新化(pull)](./Common_Doc/How_To_Pull.md)
 3. [branchの作成・削除](./Common_Doc/How_to_make_branch.md) [←そもそもbranchとは？](https://backlog.com/ja/git-tutorial/stepup/01/)
 4. [ソースファイルを編集する(Visual_Studio_Code編)](./Common_Doc/How_To_Edit_File_Visual_Studio_Code.md)

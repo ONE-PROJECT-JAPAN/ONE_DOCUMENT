@@ -1,4 +1,4 @@
-  <link href=".\css\StyleSheet.css" rel="stylesheet"/>
+<link href=".\css\StyleSheet.css" rel="stylesheet"/>
  
 
 ### Visual_Sudio_2022のインストール方法
