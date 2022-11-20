@@ -1,5 +1,5 @@
 <link href=".\css\StyleSheet.css" rel="stylesheet"/>
- 
+
 
 # 共通技術ドキュメントインデックス
 
@@ -28,7 +28,7 @@
 - [Hulft](#hulft)
 
 ## [プログラミング言語カテゴリー](#プログラミング言語)
-- [bash](#bash)
+- [shell](#shell)
 - [C言語](#c言語)
 - [C++](#c)
 - [C#](#c-1)
@@ -37,7 +37,7 @@
 - [Python](#python)
 
 ## [用語カテゴリー](#用語)
-- 
+-
 
 <br><br>
 
@@ -47,7 +47,7 @@
 - [AWSとは](https://e-words.jp/w/Amazon_Web_Services.html)
 ## Azure
 - [Azureとは](https://e-words.jp/w/Microsoft_Azure.html)
-## オンプレミス 
+## オンプレミス
 - [オンプレミスとは](https://e-words.jp/w/%E3%82%AA%E3%83%B3%E3%83%97%E3%83%AC%E3%83%9F%E3%82%B9.html)
 ## GitHub
 - [GitHubとは](https://e-words.jp/w/GitHub.html)
@@ -70,9 +70,9 @@
 
 # プログラミング言語
 
-## bash
-- [bashとは](https://e-words.jp/w/bash.html)
-- [覚えておくと便利なコマンド一覧](リンク)
+## shell
+- [shellとは](https://e-words.jp/w/bash.html)
+- [覚えておくと便利なコマンド一覧％作成中％](リンク)
 
 ## C言語
 - [C言語とは](https://e-words.jp/w/C%E8%A8%80%E8%AA%9E.html)
@@ -98,27 +98,27 @@
 
 ## A
 
-## B 
+## B
 
-## C 
+## C
 
-## D 
+## D
 
-## E 
+## E
 
-## F 
+## F
 
-## G 
+## G
 
-## H 
+## H
 
 ## I
 
 ## J
 
-## K 
+## K
 
-## L 
+## L
 
 ## M
 
@@ -126,7 +126,7 @@
 
 ## O
 
-## p 
+## p
 
 ## Q
 
