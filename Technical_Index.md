@@ -56,10 +56,13 @@
 - [AWSとは](https://e-words.jp/w/Amazon_Web_Services.html)
 ## Azure
 - [Azureとは](https://e-words.jp/w/Microsoft_Azure.html)
-## オンプレミス
-- [オンプレミスとは](https://e-words.jp/w/%E3%82%AA%E3%83%B3%E3%83%97%E3%83%AC%E3%83%9F%E3%82%B9.html)
+
 ## GitHub
 - [GitHubとは](https://e-words.jp/w/GitHub.html)
+
+## オンプレミス
+- [オンプレミスとは](https://e-words.jp/w/%E3%82%AA%E3%83%B3%E3%83%97%E3%83%AC%E3%83%9F%E3%82%B9.html)
+
 
 <br><br>
 
