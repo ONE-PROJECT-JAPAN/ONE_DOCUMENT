@@ -23,21 +23,30 @@
 - [GitHub](#github)
 
 ## [ミドルウェアカテゴリー ](#ミドルウェア)
-- [git](#git)
 - [JP1](#jp1)
 - [Hulft](#hulft)
+- [AirFlow](#)
 
 ## [プログラミング言語カテゴリー](#プログラミング言語)
-- [shell](#shell)
 - [C言語](#c言語)
 - [C++](#c)
 - [C#](#c-1)
-- [Command Prompt](#command-prompt)
 - [Java](#java)
 - [Python](#python)
 
-## [用語カテゴリー](#用語)
--
+## [データベースカテゴリ](#データベース)
+- [MySQL](#mysql)
+- [SQLServer](#sqlserver)
+- [PostgreSQL](#postgresql)
+- [SQLLite](#sqllite)
+- [Amazon_RedShift](#amazon_redshift)
+- [Amazon_Aurora](#amazon_aurora)
+- [GCP_BigQuery](#gcp_bigquery)
+
+## [業務ツール系カテゴリー](#プログラミング言語)
+- [Command Prompt](#command-prompt)
+- [git](#git)
+- [shell](#shell)
 
 <br><br>
 
@@ -54,43 +63,72 @@
 
 <br><br>
 
-
-
 # ミドルウェア
  ## JP1
 - [Jp1とは](https://e-words.jp/w/JP1.html)
  ## Hulft
 - [Hulftとは](https://e-words.jp/w/HULFT.html)
- ## git
-- [gitとは](https://e-words.jp/w/Git.html)
-- [覚えておくと便利なコマンド一覧](リンク)
-
+## AirFlow
 
 <br><br>
 
 # プログラミング言語
 
-## shell
-- [shellとは](https://e-words.jp/w/bash.html)
-- [覚えておくと便利なコマンド一覧％作成中％](リンク)
-
 ## C言語
 - [C言語とは](https://e-words.jp/w/C%E8%A8%80%E8%AA%9E.html)
+
 ## C\+\+
 - [C++とは](https://e-words.jp/w/C-_-_%E8%A8%80%E8%AA%9E.html)
+
 ## C#
 - [C#とは](https://e-words.jp/w/C-.html)
 
-## Command Prompt
-- [Command Promptとは](https://e-words.jp/w/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88.html)
-- [覚えておくと便利なコマンド一覧](./Doc/CMD_Command.md)
-
 ## Java
  - [JaVaとは](https://e-words.jp/w/Java.html)
+
 ## Python
  - [Pythonとは](https://e-words.jp/w/Python.html)
 
 <br><br>
+
+# データベース
+## Oracle
+- [Oracleとは](https://e-words.jp/w/Oracle.html)
+-
+
+## MySQL
+- [MySQLとは](https://e-words.jp/w/MySQL.html)
+## SQLServer
+- [SQLServerとは](https://e-words.jp/w/SQL_Server.html)
+## PostgreSQL
+- [PostgreSQLとは](https://e-words.jp/w/PostgreSQL.html)
+## SQLLite
+- [SQLLiteとは](https://e-words.jp/w/SQLite.html)
+
+## Amazon_RedShift
+- [Amazon_RedShiftとは](https://docs.aws.amazon.com/ja_jp/redshift/latest/mgmt/welcome.html)
+
+## Amazon_Aurora
+- [Amazon_Auroraとは](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html
+)
+## GCP_BigQuery
+- [Amazon_Auroraとは](https://aiacademy.jp/media/?p=1184)
+
+<br><br>
+
+# ツール計
+## shell
+- [shellとは](https://e-words.jp/w/bash.html)
+- [覚えておくと便利なコマンド一覧％作成中％](./Doc/Shell_Command.md)
+
+## Command Prompt
+- [Command Promptとは](https://e-words.jp/w/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88.html)
+
+- [覚えておくと便利なコマンド一覧](./Doc/CMD_Command.md)
+
+ ## git
+- [gitとは](https://e-words.jp/w/Git.html)
+- [覚えておくと便利なコマンド一覧](リンク)
 
 
 
