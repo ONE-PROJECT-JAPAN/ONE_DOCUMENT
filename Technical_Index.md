@@ -122,7 +122,7 @@
 # ツール計
 ## shell
 - [shellとは](https://e-words.jp/w/bash.html)
-- [覚えておくと便利なコマンド一覧％作成中％](./Doc/Shell_Command.md)
+- [覚えておくと便利なコマンド一覧](./Doc/Shell_Command.md)
 
 ## Command Prompt
 - [Command Promptとは](https://e-words.jp/w/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88.html)
