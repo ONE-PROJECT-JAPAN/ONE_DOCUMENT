@@ -1,4 +1,4 @@
-# Command Promptでよく使うCommand一覧
+# よく使うCommand一覧
 
 # 基本的な操作
 | コマンド | 用途                           | 詳細                 |
