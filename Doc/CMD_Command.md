@@ -2,6 +2,9 @@
 
 
 # Command Promptでよく使うCommand一覧
+ここではよく使われるコマンドのみを列挙する。
+詳しい情報や、その他の情報は公式のリファレンスを参照 <br>
+[Windows のコマンド](https://learn.microsoft.com/ja-jp/windows-server/administration/windows-commands/windows-commands)
 
 # 基本的な操作
 | コマンド | 用途                           | 詳細                |
@@ -30,7 +33,6 @@
 <br><br>
 
 # ネットワーク系
-
 | コマンド | 用途                                                 | 詳細                    |
 | -------- | ---------------------------------------------------- | ----------------------- |
 | ipconfig | PCのIPアドレス等の情報を確認する                     | [詳細をみる](#ipconfig) |
@@ -265,23 +267,24 @@ TREE コマンドの引数としてディレクトリ構造を表示したいパ
      mkdir [ディレクトリ名]
     ```
 - パーミッションを指定しディレクトリを作成する
-  1. Execution
-  2. Write
-  3. Execution + Write
-  4. Read
-  5. Read + Write
-  6. Read + Execution
-  7. Read + Write + Execution
     ``` bat
-    mkdir -m [パーミッション指定] [ディレクトリ名]
+    mkdir \m [パーミッション指定] [ディレクトリ名]
     ```
   [パーミッション指定] = [所有ユーザ] + [所有グループ] + [その他のユーザ]
+  - パーミッションの一覧
+    1. Execution
+    2. Write
+    3. Execution + Write
+    4. Read
+    5. Read + Write
+    6. Read + Execution
+    7. Read + Write + Execution
 
 - エラーを表示せず記述したディレクトリが存在しなければ作成する
 
   親ディレクトリが存在しなくてもエラーメッセージを表示せずに親ディレクトリと子ディレクトリを作成する。
   ``` bat
-  mkdir -p [親ディレクトリ名]\[子ディレクトリ名]
+  mkdir \p [親ディレクトリ名]\[子ディレクトリ名]
   ```
 
 ## del
