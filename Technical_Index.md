@@ -91,6 +91,7 @@
 
 ## Python
  - [Pythonとは](https://e-words.jp/w/Python.html)
+ - [Python入門](./Doc/python_Beginner.md)
 
 <br><br>
 
