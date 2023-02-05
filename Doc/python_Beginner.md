@@ -61,8 +61,7 @@ python は、オランダ人のグルド・ヴァンロッサム氏が開発し 
 
 | データ型   |            | 説明                                                                                                                                                                                                                                          | 記述例                                                                                 |
 | ---------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| str        | 文字列     | 文字、文字列                                                                                                                                                                                                                                  | str = 'abc'                                                                            |
-|            |            | " " ダブルクォーテーション、もしくは' ' シングルクォーテーションで囲って定義する。                                                                                                                                                            |                                                                                        |
+| str        | 文字列     | 文字、文字<br> " " ダブルクォーテーション、もしくは' ' シングルクォーテーションで囲って定義する。                                                                                                                                                                                                                                 | str = 'abc'                                                                            |
 | int        | 整数       | 小数点を含まない数値                                                                                                                                                                                                                          | num = 6                                                                                |
 | float      | 浮動小数点 | 小数点を含む数値                                                                                                                                                                                                                              | num = 3.14                                                                             |
 | bool       | ブール     | True、False で定義する。                                                                                                                                                                                                                      | check_flg = True <br> check_flg = False                                                |
@@ -348,11 +347,183 @@ print(circle_Area(r, ren))
 
 
 # `if __name__ == ‘__main__’` の使い方
+Pythonではクラスや関数などをまとめたモジュールを作成できる
+モジュールをインポートすると、モジュールの機能を利用できます。
+また、モジュールもPythonプログラムなので、モジュールを直接実行することできるため。
+モジュールをテストする時など、「モジュールを直接実行した時」と「モジュールをインポートした時」で動作を変えたい場合があります。
+このような時に if __name__ == ‘__main__’ の構文を使います。
+モジュールを直接実行した場合に、 __name__ 変数の中身が、’__main__’ になることを利用した手法です。
+
+Moduleを作るとき `if __name__ == ‘__main__’` でテストコードを記述しておくことで
+Module内の関数の単体テストが容易に実施できたりと工数削減、品質向上にもつながります。
+以下のSampleでは関数をmainで実行するようにし直接Moduleを実行すると定数で引数を私
+関数を実行します。
+
+```py
+import math
+
+r: int
+ren: str
+
+
+def circle_Area(R: int, range: str):
+    result: str
+
+    if R > 10:
+        print('計算失敗')
+        result = '入力された値が小さすぎて計算できません。' \
+            + '\n入力された値:' \
+            + str(R) + '\n10より大きい数を入力してください。'
+
+    else:
+        print('計算成功')
+        result = str((math.pi*R)**2) + range
+
+    return result
+
+
+def test():
+
+    r = 25
+    ren = 'cm'
+    print(circle_Area(r, ren))
+
+    r = 10
+    ren = 'mm'
+    print(circle_Area(r, ren))
+
+if __name__ == '__main__':
+    test()
+
+```
+[Sample_Code](./Sample_code/easy_if_main.py)
 
 # Class を作成する。
 
+
 # クラス定義を作成する
+[クラス](https://e-words.jp/w/%E3%82%AF%E3%83%A9%E3%82%B9.html)定義をすることで開発を効率的且つ建設的に行うことができます。
+適切なクラス定義を行うことができれば、改修が発生した時のコストも抑えることができる。
+
+以下のSampleは　パーソン（人）のクラス定義である。
+以下のように定義することで別のModuleでInstanceを生成して記述したクラスを使用することができるようになる。
+```py
+import datetime
+
+
+class Person_Class:
+    '''
+    パーソンクラス
+    人の情報を操作することができる。
+
+    member_variable
+    ---------
+    p_name: str
+        氏名
+    p_age: int
+        年齢
+    p_birth: str
+        生年月日
+    p_address: str
+        住所
+    '''
+
+    def __init__(self, p_name, p_birth, p_address):  # コンストラクタ
+        '''
+        パーソンクラスのコンストラクタ
+          member_variable
+          ---------
+          p_name: str
+              氏名
+          p_age: int
+              年齢
+          p_birth: str
+              生年月日
+          p_address: str
+              住所
+        '''
+
+        self.p_name = p_name
+        self.p_birth = p_birth
+        self.p_address = p_address
+        self.p_age = self.set_age()
+
+    def set_age(self):
+        '''
+        誕生日から年齢を算出する関数
+
+        parameter
+        -------
+        self
+            コンストラクタのパラーメータ
+        return
+        set_age: int
+            誕生日から換算した年齢を返す。
+        -------
+
+        '''
+        # フォーマット
+        birth_fmt = datetime.datetime.strptime('','%Y-%m-%d')
+        now_date = datetime.datetime.strptime(str(datetime.date.today()),'%Y-%m-%d')
+
+        # 年齢のベースを作成
+        age_base = now_date.year-birth_fmt.year
+        if now_date > datetime.datetime(now_date.year, birth_fmt.month, birth_fmt.day, birth_fmt.hour, birth_fmt.minute, birth_fmt.second):
+            age = age_base
+        else:
+            age = age_base + 1
+
+        return age
+
+```
+
+
+
+
+Sampleの関数を使うときは以下のようにする
+
+```py
+
+from easy_class import Person_Class
+
+
+p = Person_Class('morimoto_tsubaki',
+                 '2022-01-02',
+                 '千葉県千葉市千葉1-1-1'
+                 )
+
+print(f'{p.p_name}は{p.p_age}歳です。')
+
+```
+[Sample_Code](./Sample_code/easy_class_call.py)
+
+
 
 # Class 継承
+[Class継承](https://e-words.jp/w/%E7%B6%99%E6%89%BF.html)することで
+既存のクラスの特性を引き継いで新たなクラスを作成することができる。
+継承を利用することでコードの再利用性が高まり汎用的、抽象的な機能等を
+親クラスに定義することで、類似コードを繰り返し記述することがなくなり。
+開発、改修コスト低減も望める。
+可読性も上がる利点がある。
+
+以下では前述で作成した`Person_Class`を継承`Member_Class`を定義している。
+
+```py
+class Member_Class (Person_Class):
+
+    def __init__( self ) :
+            print( "Person_Class __init__()")
+
+
+```
+
 
 # リファレンスなどの見方(中級者以上の学習方法)
+ここまでで、基本的なPythonのプログラミングについて触れてきました。
+ここから先の学習については必要に応じて、ドキュメントを読むことをお勧めします。
+書籍を一つ買うことをお勧めしますが、それ以外にネットで閲覧できるお勧めのサイトをご紹介します。
+
+1. [Python公式リファレンス](https://docs.python.org/ja/3/contents.html) ベースの知識はここから得るのが間違いない
+2. [note.nkmk.me](https://note.nkmk.me/python/) pythonの実使用にそって目次もあるので実用的
+3. [Qiita](https://qiita.com/)  pythonに限らず様々な技術DOCUMENTが検索できる
