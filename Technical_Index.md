@@ -72,7 +72,8 @@
  ## Hulft
 - [Hulftとは](https://e-words.jp/w/HULFT.html)
 ## AirFlow
-
+- [AirFlowとは](https://qiita.com/souhei-etou/items/3ecffd3855ae0fed8e39)
+- [AirFlowの環境構築](Doc/AirFlow_built_environment.md)
 <br><br>
 
 # プログラミング言語
@@ -187,12 +188,3 @@
 ## Y
 
 ## X
-
-
-
-
-
-
-
-
-
