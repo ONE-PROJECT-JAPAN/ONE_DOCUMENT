@@ -1,9 +1,6 @@
 # AirFlow
 
 本編ではローカル環境に AirFlow の実行環境の構築について解説していく。
-AWS サービスへのなどはここでは解説しない。
-
-# 目次
 
 # 学習環境構築
 
@@ -163,6 +160,8 @@ AWS サービスへのなどはここでは解説しない。
 
 12. スケジューラーも起動するようにyamlを更新する。
     ```yaml
+      version: '3'
+
       services:
       web:
       image: apache/airflow:2.0.0
@@ -192,9 +191,9 @@ AWS サービスへのなどはここでは解説しない。
     ```
 
     これでスケジューラーも起動するようになった。
-    <br>次回からは　`docker-compose up -d`で起動
+    <br>次回からは　`docker-compose start -d`で起動
     <br>起動後 http://localhost:8080 でブラウザを起動
-    <br>終了するときは`docker-compose down`
+    <br>終了するときは`docker-compose stop`
 
 14. 最後に
     環境構築としては完了だが最後に今後必要になるフォルダを作っておこう。
@@ -205,3 +204,12 @@ AWS サービスへのなどはここでは解説しない。
     base_log_folder      | /opt/airflow/logs
     ```
     ![](img/docker_mkdir_dags.png)
+
+
+# トラブルシューティング
+コンテナを立ち上げてもAirFlowの画面が起動しない場合、以下の手順を試す。
+
+1. docker-compose down でコンテナを削除
+2. .\opt\airflow配下の`airflow-webserver.err`・`airflow-webserver.log`・`airflow-webserver.out`・`airflow-webserver-monitor.pid`を削除
+3. `docker-compose up -d`でコンテナを再作成
+4. AirFlowの画面が起動するか確認する。
